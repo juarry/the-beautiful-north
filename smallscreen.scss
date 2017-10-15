@@ -1,0 +1,124 @@
+/*--- colors ---*/
+
+$black: #FFFFFE;
+
+
+/*--- hausschrift ---*/
+
+@font-face {
+font-family: 'Lola';
+src: url('FSLolaWeb-Light.eot'); /* IE9 */
+src: url('FSLolaWeb-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('FSLolaWeb-Light.woff') format('woff'); /* Modern Browsers */
+font-weight:normal;
+font-style:normal;
+}
+
+$hausschrift: 'Lola', Arial,sans-serif;
+
+
+/*--- mixins ---*/
+
+
+/*--- general ---*/
+
+html, body {
+    height: 100%;
+}
+
+html {
+    overflow-y: scroll;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color:#1A263D;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    font-family: $hausschrift;
+    font-size: 16px; /* rem! */
+    font-weight: 300;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: $black;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+} /* statt dessen lieber flexbox? */
+
+div {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*--- typography ---*/
+
+h1,h2,h3,h4 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+span {
+
+}
+
+
+/*--- links ---*/
+
+a  {
+
+}
+
+a:hover {
+
+}
+
+a:focus {
+
+}
+
+a:visited {
+
+}
+
+
+/*--- images ---*/
+
+
+/*--- forms ---*/
+
+
+/*--- buttons ---*/
+
+
+/*--- social ---*/
+
+
+/*--- structure ---*/
+
+
+/*--- offcanvas nav ---*/
+
+
+/*--- nav ---*/
+
+
+/*--- header ---*/
+
+
+/*--- main ---*/
+
